@@ -1,0 +1,145 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.footer-content {
+    width: 1220px;
+    min-height: 200px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+    /* margin-bottom: 40px; */
+
+    
+}
+
+.footer-content ul,
+li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.up {
+    padding: 10px;
+    padding-bottom: 16rem;
+}
+
+.links,
+.legal {
+    width: 200px;
+    min-height: 300px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-top: 20px; */
+    gap: 30px;
+}
+
+.links h1,
+.legal h1 {
+    font-size: 33px;
+    font-weight: 600;
+    color: black;
+}
+
+.links ul,
+.legal ul {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.links ul li a,
+.legal ul li a {
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.links ul li a:hover,
+.legal ul li a:hover {
+    color: rgb(229, 103, 7);
+    /* transform: scale(1.1); */
+    cursor: pointer;
+
+}
+
+
+.newslatter {
+    width: 370px;
+    min-height: 200px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.newslatter .subscribe {
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid  rgb(229, 103, 7);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+
+    /* border-radius: 20px; */
+}
+
+.newslatter .subscribe input {
+    width: 320px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    /* border: 1px solid black; */
+
+    border-radius: 20px;
+
+    
+
+}
+
+.newslatter .subscribe button {
+    /* position: absolute; */
+    width: 90px;
+    height: 40px;
+
+    /* left: 5px; */
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    background: rgb(229, 103, 7);
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+
+}

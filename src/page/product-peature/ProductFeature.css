@@ -1,0 +1,133 @@
+.productFeature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.productFeature-content {
+    width: 1220px;
+    min-height: 300px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+
+    margin-bottom: 90px;
+    margin-top: 60px;
+}
+
+.productFeature-text {
+    width: 100%;
+    min-height: 150px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productFeature-text h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+
+}
+
+.productFeature-text p {
+    color: rgba(189, 189, 189, 1);
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.81px;
+}
+
+.cards {
+    width: 100%;
+    min-height: 200px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 30px;
+    align-items: center;
+}
+
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+
+
+    background: #fff;
+    border-radius: 10px;
+    /* padding: 20px; */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+
+    height: 300px;
+
+    transition: 0.5s;
+}
+
+.arrow-left {
+    color: white;
+    transition: 0.5s;
+
+    font-size: 19px;
+}
+
+.card-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.009);
+}
+
+
+.card-box:hover .arrow-left {
+    color: black;
+}
+
+
+.icon {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    /* margin-bottom: 15px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+}
+
+.yellow {
+    background: rgba(255, 189, 116, 0.05);
+}
+
+.pink {
+    background: rgba(226, 89, 139, 0.05);
+}
+
+.blue {
+    background: rgba(77, 18, 238, 0.05);
+}
+
+h3 {
+    font-size: 24px;
+    /* margin-bottom: 10px; */
+    color: #333;
+}
+
+p {
+    color: #999;
+}

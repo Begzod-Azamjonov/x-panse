@@ -1,0 +1,153 @@
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+
+    background: #FFFAF8;
+
+    padding-top:50px;;
+}
+
+.plan-content {
+    width: 1220px;
+    min-height: 500px;
+    /* border: 2px solid black; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    margin-bottom: 50px;
+
+}
+
+.plan-text {
+    width: 500px;
+    min-height: 50px;
+    /* border: 2px solid black; */
+}
+
+.plan-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+.plan-card {
+    width: 300px;
+    min-height: 400px;
+
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    text-align: left;
+    background-color: #fff;
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: 0.5s;
+
+    /* margin-bottom: 50px; */
+}
+
+.icon-container {
+    margin-bottom: 20px;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.check-icon {
+    margin-right: 10px;
+    color: #00A3FF;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.price p {
+    font-size: 12px;
+    color: #888;
+}
+
+.get-this-button {
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+    background-color: white;
+    color: #FF7A59;
+    border: 2px solid #FF7A59;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+.get-this-button:hover {
+    background-color: #FF5C3B;
+    color: white;
+
+}
+
+
+.cardyellow:hover {
+    box-shadow: 0 0 5px #FF7235;
+    transform: scale(1.009);
+    transition: 0.5s;
+}
+
+.cardblue:hover {
+    box-shadow: 0 0 5px #00A3FF;
+    transform: scale(1.009);
+    transition: 0.5s;
+}
+
+.cardpurple:hover {
+    box-shadow: 0 0 5px #4D12EE;
+    transform: scale(1.009);
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background: #FF7235;
+}
+
+.banner-content {
+    width: 1330px;
+    min-height: 300px;
+    /* border: 2px solid black; */
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.content-text,
+.banner-images {
+    min-height: 400px;
+    /* border: 2px solid black; */
+
+}
+
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    padding-top: 60px;
+}
+
+
+.content-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: white;
+}
+
+.content-text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.banner-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+.banner-images .banner-img-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 160px;
+    height: 50px;
+
+    gap: 10px;
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.9px;
+    color: #FF7235;
+
+
+    margin-bottom: 100px;
+
+    border: none;
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+
+.banner-images .banner-img-button:hover {
+    cursor: pointer;
+    background: rgba(255, 114, 53, 0.8);
+    color: white;
+    border: 2px solid white;
+}
